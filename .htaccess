@@ -1,0 +1,8 @@
+
+# HTID:16056447: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:16056447:
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?eshopper24h.000webhostapp\.com
+RewriteRule ^(.*)$ https://eshopper24h.000webhostapp.com/$1 [R,L]
